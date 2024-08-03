@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://example.com/</loc>
+        <loc>https://lzfz.obl.ong/</loc>
     </url>
     <url>
-        <loc>https://example.com/new/</loc>
+        <loc>https://lzfz.obl.ong/new/</loc>
         <lastmod>2022-12-07</lastmod>
     </url>
     <url>
-        <loc>https://example.com/todo/</loc>
+        <loc>https://lzfz.obl.ong/todo/</loc>
         <lastmod>2022-12-07</lastmod>
     </url>
 </urlset>
