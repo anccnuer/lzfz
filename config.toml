@@ -1,0 +1,7 @@
+base_url = "https://example.com"
+
+compile_sass = true
+title = "龙章凤篆"
+
+[markdown]
+highlight_code = false
