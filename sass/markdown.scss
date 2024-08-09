@@ -59,6 +59,9 @@ pre {
         padding: 0.5rem 0 0 1rem;
         font-size: 1.5rem;
         color: wheat;
+        @media screen and (max-width:700px) {
+            font-size: 0.8rem;
+        }
     }
     .lang {
         background-color: #23241f;
@@ -76,6 +79,9 @@ pre {
 code {
     font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
     padding: 2px 4px;
+    @media screen and (max-width:700px) {
+        font-size: 0.9rem;
+    }
 }
 
 /**链接**/
@@ -111,6 +117,10 @@ p {
     padding: 0;
     line-height: 1.8;
     font-size: $font-size-p;
+    text-align: justify;
+    @media screen and (max-width:700px) {
+        font-size: $font-size-p - 0.1rem;
+    }
 }
 
 /**各级标题**/
@@ -129,6 +139,9 @@ h1 {
         height: 4rem;
         background: url(assets/h1.png) no-repeat;
         background-size: contain;
+    }
+    @media screen and (max-width:700px) {
+        font-size: 1.7rem;
     }
 }
 
@@ -157,6 +170,9 @@ h2 {
             color: $main-color;
         }
     }
+    @media screen and (max-width:700px) {
+        font-size: $font-size-h2 - 0.2rem;
+    }
 }
 
 h3 {
@@ -184,6 +200,9 @@ h3 {
             opacity: 0.6;
             color: $main-color;
         }
+    }
+    @media screen and (max-width:700px) {
+        font-size: $font-size-h3 - 0.2rem;
     }
 }
 // 分割线
@@ -235,6 +254,9 @@ table {
             text-align: center;
             padding: 1rem 0.5rem;
         }
+        @media screen and (max-width:700px) {
+            font-size: 1.2rem;
+        }
     }
 
     tbody {
@@ -242,7 +264,7 @@ table {
 
         td {
             font-size: 1.2rem;
-            font-family: Kaiti;
+            font-family: Kaiti, 'Zhuque Fangsong (technical preview)';
             font-weight: bold;
             text-align: center;
             padding: 0.5rem;
@@ -250,6 +272,9 @@ table {
 
             &:hover {
                 background-color: #66666670;
+            }
+            @media screen and (max-width:700px) {
+                font-size: 1.1rem;
             }
         }
     }

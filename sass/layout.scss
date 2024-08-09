@@ -14,7 +14,7 @@ main {
     width: 57vw;
     margin: auto;
     @media screen and (max-width:700px) {
-        width: 90vw;
+        width: 95vw;
     }
 }
 #container {
@@ -33,7 +33,8 @@ main {
         padding: 2px 4px;
         border-radius: 5px;
         @media screen and (max-width:380px) {
-            font-size: 1.5rem;
+            font-size: 1.6rem;
+            border: 3px solid;
         }
     }
     #menu {
