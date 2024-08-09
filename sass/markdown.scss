@@ -30,6 +30,11 @@ blockquote {
         margin: 0 0 0 1rem;
         color: $main-color;
     }
+    @media screen and (max-width:700px) {
+        background-color: #c0c4cc54;
+        border-radius: 0.5rem;
+        padding-top: 1rem;
+    }
 }
 
 
