@@ -128,6 +128,19 @@ p {
     }
 }
 
+.daxie {
+    p {
+        text-indent: 0;
+    }
+    span {
+        // font-family: system-ui;
+        float: left;
+        font-size: 2.8rem;
+        margin: 1rem 0.2rem 0 0.3rem;
+    }
+}
+
+
 /**各级标题**/
 h1,
 h2,
